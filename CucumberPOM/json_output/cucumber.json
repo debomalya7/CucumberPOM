@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Validate Free CRM Home Page Test",
+        "description": "",
+        "id": "free-crm-application-test;validate-free-crm-home-page-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18246628800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens browser",
+            "match": {
+              "location": "HomePageSteps.user_opens_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 61944800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on login page",
+            "match": {
+              "location": "HomePageSteps.user_is_on_login_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7524693100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters username and password",
+            "match": {
+              "location": "HomePageSteps.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6720200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate homepage title",
+            "match": {
+              "location": "HomePageSteps.validate_homepage_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6805981600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close the browser",
+            "match": {
+              "location": "HomePageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Application Test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "C:/Users/debma/OneDrive/eclipse-workspace/CucumberPOM/src/main/java/com/qa/features/freecrm.feature"
+  }
+]
